@@ -41,10 +41,12 @@ html{
       font-size: 18px;
       padding: 12px 20px;
       transition: .5s all ease;
+      border-radius: 50px;
   }
   .btn:hover{
       background-color: transparent;
       color: #000;
+      border: 2px solid var(--pink);
   }
   section{
       padding: 100px 0;
@@ -76,13 +78,110 @@ html{
     font-weight: bold;
     transition: .5s all ease;
 }
-.nav-item:hover a{
-    color: var(--pink)!important;
-}
-.
 /* .nav-link:hover{
     color: var(--pink)!important;
 } */
+.nav-item:hover a{
+    color: var(--pink)!important;
+}
+
+/* ================================
+===============About===============
+===================================== */
+.about-box-text{
+    padding-top: 20px;
+}
+.about-heading{
+    border-bottom: 1px solid #b9b5b5;
+}
+.about-heading p{
+    font-weight: 400;
+}
+.about-heading h1{
+    color: var(--pink);
+}
+.about-paragraph p{
+    line-height: 30px;
+}
+.about-img img{
+    border-radius: 10px;
+}
+@media only screen and (max-width:430px){
+    .about-heading h1{
+    font-size:25px!important;
+    }
+}
+
+.box-img{
+    border: 1px solid #a6a7a6;
+    line-height: 200px;
+    text-align: center;
+    color: #0000004d;
+    
+}
+.box-img img{
+    max-width: 88%;
+    max-height: 100px;
+    filter: brightness(70%);
+    
+}
+.box-img img:hover{
+    filter: brightness(100%);
+}
+
+#client{
+    padding-top: 55px;
+}
+.client-text p{
+    margin-top: 45%;
+    margin-right: 20px;
+    line-height: 30px;
+}
+.left-img img{
+    border-radius: 10px;
+}
+.client-img-right img,img{
+    border-radius: 10px;
+}
+
+.news-heading h3{
+    font-weight: 600;
+    transition: .3s all ease;
+}
+.news-heading h3:hover{
+    color: var(--pink);
+}
+.news-btn a{
+    color: #000;
+    transition: .3s all ease;
+}
+.news-btn a:hover{
+    margin-left: 8px;
+}
+.news-img img{
+    border-radius: 10px;
+}
+
+.contact-form .form-control{
+    border-radius: 10px;
+}
+.contact-map iframe{
+    border-radius: 10px;
+    height: 480px;
+}
+.contact-heading{
+    margin-bottom: 40px;
+}
+.contact-map{
+    margin-top: 87px;
+}
+#contact{
+    padding-top: 13px;
+}
+
+/* ================================
+===============Footer===============
+===================================== */
 footer{
     background-color: black;
     padding: 70px 0;
